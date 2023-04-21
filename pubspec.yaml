@@ -63,3 +63,14 @@ flutter:
   assets:
     - assets/images/
 
+flavorizr:
+  flavors:
+    bitrise:
+      app:
+        name: "Bitrise"
+
+      android:
+        applicationId: "com.stepathlon.ng.app.bitrise"
+
+      ios:
+        bundleId: "com.stepathlon.ng.app.bitrise"
