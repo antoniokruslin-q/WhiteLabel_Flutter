@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EE6B9A4232B304E549E24A7 /* bitriseProfile.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = EDC9A938C7316CA860DC3575 /* bitriseProfile.xcconfig */; };
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
 		21F0C87F3EE0BCFCBA67B7F2 /* devProfile.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 0CE733234815202F9CB57A23 /* devProfile.xcconfig */; };
 		36977BA24DA2BA6C7B130C78 /* stagingDebug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1E0EEBD6D9C57507DA4F7104 /* stagingDebug.xcconfig */; };
@@ -19,13 +20,16 @@
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
+		98C0C9008333BCB93CE3B2DF /* bitriseRelease.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 52077B5CAC0BDC6E34AFF3E0 /* bitriseRelease.xcconfig */; };
 		B3DC0E3358261816936CD4D1 /* prodDebug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 5C1B395411251AA25B2D1466 /* prodDebug.xcconfig */; };
+		BF9A2A540DC9304E1DD31707 /* bitriseLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 060D31758070AC682E02EC8C /* bitriseLaunchScreen.storyboard */; };
 		C18591C68D5C63DE824CD0B6 /* stagingProfile.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 4862F81C1F26D0C456A5A931 /* stagingProfile.xcconfig */; };
 		DABD5C1F04A24531C010F68F /* prodRelease.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 0531266B55BD86ABF579F326 /* prodRelease.xcconfig */; };
 		E14E394AC0CB9CA0788771EC /* prodProfile.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = AC3BBA0CF10E37322B3217D8 /* prodProfile.xcconfig */; };
 		E6D27BB0AE3BAEE25B545113 /* devDebug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 4786B02EDE355BE65DEDCFD9 /* devDebug.xcconfig */; };
 		F518DF18E844189A888B695D /* stagingRelease.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = FE3E42BFF4003F14646C4134 /* stagingRelease.xcconfig */; };
 		FA9A508704980665355ED8D0 /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB6E502C6C4C8A35A027E03F /* Pods_Runner.framework */; };
+		FD9E2A9DB1C61AC685F90FBE /* bitriseDebug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F0AF2A4086A86B70B7E24846 /* bitriseDebug.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,6 +48,7 @@
 /* Begin PBXFileReference section */
 		0531266B55BD86ABF579F326 /* prodRelease.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = prodRelease.xcconfig; path = Flutter/prodRelease.xcconfig; sourceTree = "<group>"; };
 		05F3AE71A3FAAF19BA5A1C1F /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
+		060D31758070AC682E02EC8C /* bitriseLaunchScreen.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = bitriseLaunchScreen.storyboard; path = Runner/bitriseLaunchScreen.storyboard; sourceTree = "<group>"; };
 		073ADA14369F10652514E596 /* Pods-Runner.debug-dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug-dev.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug-dev.xcconfig"; sourceTree = "<group>"; };
 		09D5725BB82795501CEFE96F /* Pods-Runner.debug-staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug-staging.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug-staging.xcconfig"; sourceTree = "<group>"; };
 		0CE733234815202F9CB57A23 /* devProfile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = devProfile.xcconfig; path = Flutter/devProfile.xcconfig; sourceTree = "<group>"; };
@@ -59,6 +64,7 @@
 		3C1F9D37E2F37EDB077F15D9 /* devLaunchScreen.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = devLaunchScreen.storyboard; path = Runner/devLaunchScreen.storyboard; sourceTree = "<group>"; };
 		4786B02EDE355BE65DEDCFD9 /* devDebug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = devDebug.xcconfig; path = Flutter/devDebug.xcconfig; sourceTree = "<group>"; };
 		4862F81C1F26D0C456A5A931 /* stagingProfile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = stagingProfile.xcconfig; path = Flutter/stagingProfile.xcconfig; sourceTree = "<group>"; };
+		52077B5CAC0BDC6E34AFF3E0 /* bitriseRelease.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = bitriseRelease.xcconfig; path = Flutter/bitriseRelease.xcconfig; sourceTree = "<group>"; };
 		5C1B395411251AA25B2D1466 /* prodDebug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = prodDebug.xcconfig; path = Flutter/prodDebug.xcconfig; sourceTree = "<group>"; };
 		74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner-Bridging-Header.h"; sourceTree = "<group>"; };
 		74858FAE1ED2DC5600515810 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +85,8 @@
 		B36BFDAAD9623729FA111AB8 /* Pods-Runner.profile-dev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile-dev.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.profile-dev.xcconfig"; sourceTree = "<group>"; };
 		BB6E502C6C4C8A35A027E03F /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D275B02B96CFC835A7AC7FED /* devRelease.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = devRelease.xcconfig; path = Flutter/devRelease.xcconfig; sourceTree = "<group>"; };
+		EDC9A938C7316CA860DC3575 /* bitriseProfile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = bitriseProfile.xcconfig; path = Flutter/bitriseProfile.xcconfig; sourceTree = "<group>"; };
+		F0AF2A4086A86B70B7E24846 /* bitriseDebug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = bitriseDebug.xcconfig; path = Flutter/bitriseDebug.xcconfig; sourceTree = "<group>"; };
 		FE3E42BFF4003F14646C4134 /* stagingRelease.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = stagingRelease.xcconfig; path = Flutter/stagingRelease.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +126,9 @@
 				5C1B395411251AA25B2D1466 /* prodDebug.xcconfig */,
 				AC3BBA0CF10E37322B3217D8 /* prodProfile.xcconfig */,
 				0531266B55BD86ABF579F326 /* prodRelease.xcconfig */,
+				F0AF2A4086A86B70B7E24846 /* bitriseDebug.xcconfig */,
+				EDC9A938C7316CA860DC3575 /* bitriseProfile.xcconfig */,
+				52077B5CAC0BDC6E34AFF3E0 /* bitriseRelease.xcconfig */,
 			);
 			name = Flutter;
 			sourceTree = "<group>";
@@ -133,6 +144,7 @@
 				16EDCFA1DD5D8CD5086A68B5 /* prodLaunchScreen.storyboard */,
 				CB819708EFF0BF8AB7969FBD /* Pods */,
 				25B344FA6487F3B893FFE26F /* Frameworks */,
+				060D31758070AC682E02EC8C /* bitriseLaunchScreen.storyboard */,
 			);
 			sourceTree = "<group>";
 		};
@@ -257,6 +269,10 @@
 				941E62150C52E0085AC7822C /* devLaunchScreen.storyboard in Resources */,
 				589D0ADC02E77459F28CF11C /* stagingLaunchScreen.storyboard in Resources */,
 				68948405E5079E3AA76C35ED /* prodLaunchScreen.storyboard in Resources */,
+				FD9E2A9DB1C61AC685F90FBE /* bitriseDebug.xcconfig in Resources */,
+				0EE6B9A4232B304E549E24A7 /* bitriseProfile.xcconfig in Resources */,
+				98C0C9008333BCB93CE3B2DF /* bitriseRelease.xcconfig in Resources */,
+				BF9A2A540DC9304E1DD31707 /* bitriseLaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -665,6 +681,33 @@
 				PRODUCT_NAME = Runner;
 			};
 			name = "Release-prod";
+		};
+		52E008F429F2D7380004D729 /* Debug-bitrise */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = VX49P256HE;
+				PRODUCT_NAME = Runner;
+			};
+			name = "Debug-bitrise";
+		};
+		52E008F529F2D7380004D729 /* Profile-bitrise */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = VX49P256HE;
+				PRODUCT_NAME = Runner;
+			};
+			name = "Profile-bitrise";
+		};
+		52E008F629F2D7380004D729 /* Release-bitrise */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = VX49P256HE;
+				PRODUCT_NAME = Runner;
+				PROVISIONING_PROFILE_SPECIFIER = "Stepathlon Bitrise";
+			};
+			name = "Release-bitrise";
 		};
 		56BCA0DDF08F04CC6732E963 /* Release-staging */ = {
 			isa = XCBuildConfiguration;
@@ -1169,6 +1212,144 @@
 			};
 			name = Release;
 		};
+		9C4B467BB337468F9828D537 /* Profile-bitrise */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDC9A938C7316CA860DC3575 /* bitriseProfile.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "$(ASSET_PREFIX)AppIcon";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Runner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stepathlon.ng.app.bitrise;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Profile-bitrise";
+		};
+		BECB6D038105B110C2ACD0A8 /* Release-bitrise */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52077B5CAC0BDC6E34AFF3E0 /* bitriseRelease.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "$(ASSET_PREFIX)AppIcon";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Runner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stepathlon.ng.app.bitrise;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release-bitrise";
+		};
 		CFC4611973D40D4182D39D14 /* Debug-prod */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5C1B395411251AA25B2D1466 /* prodDebug.xcconfig */;
@@ -1241,6 +1422,79 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = "Debug-prod";
+		};
+		D2437F11B1751C1316695ED1 /* Debug-bitrise */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0AF2A4086A86B70B7E24846 /* bitriseDebug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "$(ASSET_PREFIX)AppIcon";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Runner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flutter",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stepathlon.ng.app.bitrise;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug-bitrise";
 		};
 		E951A2F2F3F4447AD68884CD /* Profile-dev */ = {
 			isa = XCBuildConfiguration;
@@ -1328,6 +1582,9 @@
 				CFC4611973D40D4182D39D14 /* Debug-prod */,
 				716A93BD874B76696A77FD8E /* Profile-prod */,
 				62E7D30D6B31F8460D6370E3 /* Release-prod */,
+				D2437F11B1751C1316695ED1 /* Debug-bitrise */,
+				9C4B467BB337468F9828D537 /* Profile-bitrise */,
+				BECB6D038105B110C2ACD0A8 /* Release-bitrise */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1347,6 +1604,9 @@
 				52AA635629ED82630097BB31 /* Debug-prod */,
 				52AA635729ED82630097BB31 /* Profile-prod */,
 				52AA635829ED82630097BB31 /* Release-prod */,
+				52E008F429F2D7380004D729 /* Debug-bitrise */,
+				52E008F529F2D7380004D729 /* Profile-bitrise */,
+				52E008F629F2D7380004D729 /* Release-bitrise */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

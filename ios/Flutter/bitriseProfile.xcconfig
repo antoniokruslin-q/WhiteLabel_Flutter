@@ -1,0 +1,6 @@
+#include "Generated.xcconfig"
+
+FLUTTER_TARGET=lib/main/main_prod.dart
+ASSET_PREFIX=bitrise
+BUNDLE_NAME=Bitrise
+BUNDLE_DISPLAY_NAME=Bitrise
