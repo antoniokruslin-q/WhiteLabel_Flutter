@@ -17,6 +17,12 @@ enum AppEnvironment {
     appTitle: 'App Staging',
     apiBaseUrl: 'https://q.agency',
     assetBaseUrl: 'ASSET_BASE_STAGING',
+  ),
+  BITRISE(
+    env: 'bitrise',
+    appTitle: 'App Bitrise',
+    apiBaseUrl: 'https://q.agency',
+    assetBaseUrl: 'ASSET_BASE_BITRISE',
   );
 
   final String env;
