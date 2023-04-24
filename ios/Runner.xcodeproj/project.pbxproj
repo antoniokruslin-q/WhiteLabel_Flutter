@@ -694,8 +694,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9B521D6F4DC2517144ABEAAF /* Pods-Runner.release-prod.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				DEVELOPMENT_TEAM = VX49P256HE;
 				ENABLE_BITCODE = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stepathlon.ng.app.bitrise;
 				PRODUCT_NAME = Runner;
+				PROVISIONING_PROFILE_SPECIFIER = "Stepathlon Bitrise";
 			};
 			name = "Release-prod";
 		};
