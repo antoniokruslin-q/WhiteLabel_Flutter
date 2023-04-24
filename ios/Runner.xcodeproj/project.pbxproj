@@ -686,6 +686,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = VX49P256HE;
+				ENABLE_BITCODE = NO;
 				PRODUCT_NAME = Runner;
 			};
 			name = "Debug-bitrise";
@@ -694,6 +695,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = VX49P256HE;
+				ENABLE_BITCODE = NO;
 				PRODUCT_NAME = Runner;
 			};
 			name = "Profile-bitrise";
@@ -704,6 +706,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = VX49P256HE;
+				ENABLE_BITCODE = NO;
 				PRODUCT_NAME = Runner;
 				PROVISIONING_PROFILE_SPECIFIER = "Stepathlon Bitrise";
 			};
